@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form Register</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../image/residential-8278516_1280 (1).jpg" type="image/x-icon">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- start Codes -->
+    <!-- what is Html5 ? -->
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Register</legend>
+            <table>
+
+                <!-- NAME -->
+                <tr>
+                    <td>
+                        <label for="uname"><i class="fa-solid fa-circle-user"></i></label>
+                    </td>
+                    <td>
+                        <input type="text" name="uname" id="uname" placeholder="Adınız ..." value="Hamit" required
+                            autofocus title="Adınızı giriniz !" />
+                    </td>
+                </tr>
+
+                <!-- SURNAME -->
+                <tr>
+                    <td>
+                        <label for="usurname"><i class="fa-solid fa-circle-user"></i></label>
+                    </td>
+                    <td>
+                        <input type="text" name="usurname" id="usurname" placeholder="Soyadınız ..." value="Mızrak"
+                            required title="Soyadınız giriniz !" />
+                    </td>
+                </tr>
+
+                <!-- EMAIL -->
+                <tr>
+                    <td>
+                        <label for="uemail"><i class="fa-solid fa-envelope"></i> </label>
+                    </td>
+                    <td>
+                        <input type="email" name="uemail" id="uemail" placeholder="Emailiniz ..." required
+                            title="Emailinizi giriniz !" />
+                    </td>
+                </tr>
+
+                <!-- PASSWORD -->
+                <tr>
+                    <td>
+                        <label for="upassword"><i class="fa-solid fa-key"></i> </label>
+                    </td>
+                    <td>
+                        <input type="password" name="upassword" id="upassword" placeholder="Şifreniz ..." required
+                            title="Şifreniz giriniz !" />
+                    </td>
+                </tr>
+
+                <!-- GENDER -->
+                <tr>
+                    <td>
+                        <label><i class="fa-solid fa-venus-mars"></i> </label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="men" checked title="Bayan" />Bayan
+                        <input type="radio" name="gender" id="woman" title="Erkek" />Erkek
+                    </td>
+                </tr>
+
+                <!-- READ ME -->
+                <tr>
+                    <td>
+                        <label><i class="fa-solid fa-book-open-reader"></i> </label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="readme" id="readme" title="Bayan" />is read me ?
+                    </td>
+                </tr>
+
+                <!-- SEND -->
+                <tr>
+                    <td>
+                        <label>Send: </label>
+                    </td>
+                    <td>
+                        <input type="reset" name="reset" id="reset" title="Temizle" value="Temizle" />
+                        <button type="submit" name="submit" id="submit" title="Gönder">
+                            Gönder
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+
+    <br><br><br><br><br><br>
+    <!-- end Codes -->
+</body>
+
+</html>
