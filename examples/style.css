@@ -1,0 +1,45 @@
+/*
+Project Name   : Form Register
+Project Author : hamit Mızrak
+Project Date   : 12/10/2023
+Project Version: V1.0.0
+ */
+
+
+ /* **************************************** */
+ /* Common Property */
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --template_bg_color: #000000;
+    --template_color: #fff;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    color: var(--template_color);
+    background-color: var(--template_bg_color);
+}
+
+a {}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ /* **************************************** */
+ /* Form */
