@@ -20,7 +20,7 @@ Project Version: V1.0.0
 }
 
 html {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 body {
@@ -41,5 +41,47 @@ img {
     height: auto;
 }
 
+
  /* **************************************** */
  /* Form */
+
+ /* heading */
+ .heading{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 3rem;
+ }
+
+  /* container */
+  #container_id{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 0.9rem;
+
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* X Düzleminde */
+    align-items: center; /* Y Düzleminde*/
+
+    /* box-shadow */
+    -webkit-box-shadow: 13px 24px 26px 0px rgba(255,255,255,0.72);
+    -moz-box-shadow: 13px 24px 26px 0px rgba(255,255,255,0.72);
+    box-shadow: 1px 2px 26px 0px rgba(255,255,255,0.72);
+  }
+
+  /* icon */
+  .icon_class{
+    color:rgb(125, 125, 251);
+    font-size: 0.8rem;
+    margin-left:0.3rem;
+    position: absolute;
+    margin-top:0.1rem;
+  }
+
+  /* input */
+  /* input Focus */
+  
+  /* button */
+  /* button:hover */
