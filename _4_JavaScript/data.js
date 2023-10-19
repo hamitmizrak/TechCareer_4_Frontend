@@ -186,57 +186,168 @@
 
 /////////////////////////////////////////////////////////////////////////////
 
-// immedia function (()=>{})()
-(() =>{
-    console.log("data immedia function");
-})()
+// // immedia function (()=>{})()
+// (() =>{
+//     console.log("data immedia function");
+// })()
 
+// // normal Function 
+// function normalFunction(){
+//     console.log("normal  function");
+// }
+// normalFunction();
 
-// normal Function 
-function normalFunction(){
-    console.log("normal  function");
-}
-normalFunction();
+// // anonymous function
+// const anonymous=function(){
+//     console.log("anonymous  function");
+// }
+// anonymous();
 
-// anonymous function
-const anonymous=function(){
-    console.log("anonymous  function");
-}
-anonymous();
-
-// arrow function
-const arrow=()=>{
-    console.log("arrow  function");
-}
-arrow()
-
+// // arrow function
+// const arrow=()=>{
+//     console.log("arrow  function");
+// }
+// arrow()
 
 /////////////////////////////////////////////////////////////////////////////
-
 // conditional
+// const data20=()=>{
+//     let data=parseInt(prompt("Lütfen bir sayı giriniz"));
+//     if(data>0){
+//         console.log("Sayı pozitif");
+//     }else if(data<0){
+//         console.log("Sayı negatif");
+//     }else{
+//         console.log("Sayı sıfır");
+//     }
+// }
+// //data20();
+
+
+// const data21=()=>{
+//     let data=16;
+//     if(data%2==0){
+//         console.log("Sayı çifttir");
+//     }else{
+//         console.log("Sayı tektir");
+//     }
+// }
+// data21();
+
 /////////////////////////////////////////////////////////////////////////////
 
-// ternary
+// Ternary
+// const data22=()=>{
+//     let data=16;
+//     let result=(data%2==0) ? "Sayı çifttir" : "Sayı tektir"; 
+//     console.log(result);
+// }
+// data22();
+
 /////////////////////////////////////////////////////////////////////////////
 
 // switch case
-/////////////////////////////////////////////////////////////////////////////
 
+let data23 = () => {
+    let number = new Date().getDay();
+    console.log(number);
+    if (number == 0)
+        console.log("Pazar");
+    else if (number == 1)
+        console.log("Pazartesi");
+    else if (number == 2)
+        console.log("Salı");
+    else if (number == 3)
+        console.log("Çarşamba");
+    else if (number === 4)
+        console.log("Perşembe");
+    else if (number == 5)
+        console.log("Cuma");
+    else if (number == 6)
+        console.log("Cumartesi");
+    else
+        console.log("0-6 arasındaki sayılar giriniz");
+}
+//data23()
+
+
+let data24 = () => {
+    let number = new Date().getDay();
+    console.log(number);
+    switch (number) {
+        case 0:
+            console.log("Pazar");
+            break;
+        case 1:
+            console.log("Pazartesi");
+            break;
+        case 2:
+            console.log("Salı");
+            break;
+        case 3:
+            console.log("Çarşamba");
+            break;
+        case 4:
+            console.log("Perşembe");
+            break;
+        case 5:
+            console.log("Cuma");
+            break;
+        case 6:
+            console.log("Cumartesi");
+            break;
+
+        default:
+            console.log("0-6 arasındaki sayılar giriniz");
+            break;
+    }
+}
+//data24()
+
+/////////////////////////////////////////////////////////////////////////////
 // Loop
-/////////////////////////////////////////////////////////////////////////////
+const loopTutorials = () => {
+    // i=i+1;
+    // i+=1
+    // i++
 
+    // for ile while arasındaki farklar nelerdir ?
+
+    // For 
+    for (let i = 1; i <= 9; i++) {
+        document.writeln(i)
+    }
+
+    document.writeln("<br/>");
+
+    // While
+    let x = 1;
+    while (x <= 9) {
+        document.writeln(x)
+        x = x + 1;
+    }
+    
+    document.writeln("<br/>");
+
+    //do-while
+    let y = 1;
+    do {
+        document.writeln(y)
+        y += 1;
+    }while(y<=9);
+    
+}
+loopTutorials()
+/////////////////////////////////////////////////////////////////////////////
 // Array
 /////////////////////////////////////////////////////////////////////////////
 
 // Object
 /////////////////////////////////////////////////////////////////////////////
-
 // DOM
 /////////////////////////////////////////////////////////////////////////////
-
 // Event Listener
 /////////////////////////////////////////////////////////////////////////////
-
 // Local Storage
 
 //////////////////////////////////////////////////////////////////
