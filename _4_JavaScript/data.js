@@ -326,7 +326,7 @@ const loopTutorials = () => {
         document.writeln(x)
         x = x + 1;
     }
-    
+
     document.writeln("<br/>");
 
     //do-while
@@ -334,15 +334,89 @@ const loopTutorials = () => {
     do {
         document.writeln(y)
         y += 1;
-    }while(y<=9);
-    
+    } while (y <= 9);
+
 }
-loopTutorials()
+//loopTutorials()
 /////////////////////////////////////////////////////////////////////////////
 // Array
-/////////////////////////////////////////////////////////////////////////////
+const dataArray = () => {
+    let arr = [4, 2, 9, 1, 8, 0];
+    console.log(arr);
+    console.log(typeof arr);
 
+    arr.push(66);
+    for (let i = 0; i < arr.length; i++) {
+        console.log(i + " => " + arr[i])
+    }
+
+    // arr.unshift(55);
+    // for (let temp of arr) {
+    //     console.log(temp);
+    // }
+
+    // arr.pop();
+    // arr.shift();
+    // // callbackfn: (value: T, index: number, array: T[])
+    // arr.forEach(function(value,index,dizi){
+    //     //console.log(index+" => "+value);
+    //     console.log(`${index} => ${value}`);
+    // });
+
+    console.log(" ");
+    //arr.sort()
+    //arr.reverse()
+    arr.sort().reverse()
+
+    arr.forEach((value, index, dizi) => {
+        //console.log(index+" => "+value);
+        console.log(`${index} => ${value}`);
+    });
+
+    //let data15=arr.toString().substring(0,4);
+    let data15 = arr.join(" ");
+    console.log(data15);
+}
+//dataArray();
+
+
+const dataArray2 = () => {
+    let array = [];
+    for (let i = 0; i < 9; i++) {
+        array[i] = Math.floor(Math.random() * 9 + 1)
+    }
+    //console.log(array);
+    return array;
+}
+dataArray2();
+
+
+const dataArray3 = () => {
+    let array = dataArray2();
+    console.log(array);
+
+    let result = array.filter((value, index, dizi) => {
+        return value % 2 == 0
+    }).map((value, index, dizi) => {
+        return value = value * 10;
+    }).forEach((value, index, dizi) => {
+        //console.log(index+" => "+value);
+        console.log(`${index} => ${value}`);
+    });
+
+}
+dataArray3();
+
+/////////////////////////////////////////////////////////////////////////////
 // Object
+const objectData={
+    name:"Hamit",
+    surname:"Mızrak"
+};
+console.log(objectData);
+console.log(objectData.name);
+console.log(objectData.surname);
+
 /////////////////////////////////////////////////////////////////////////////
 // DOM
 /////////////////////////////////////////////////////////////////////////////
