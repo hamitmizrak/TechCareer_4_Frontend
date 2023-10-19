@@ -5,9 +5,8 @@ Project Date   : 12/10/2023
 Project Version: V1.0.0
  */
 
-
- /* **************************************** */
- /* Common Property */
+/* **************************************** */
+/* Common Property */
 * {
     margin: 0;
     padding: 0px;
@@ -30,7 +29,9 @@ body {
     background-color: var(--template_bg_color);
 }
 
-a {}
+a {
+    text-decoration: none;
+}
 
 ul {
     list-style-type: none;
@@ -41,18 +42,18 @@ img {
     height: auto;
 }
 
- /* **************************************** */
- /* Form */
+/* **************************************** */
+/* Form */
 
- /* heading */
- .heading{
+/* heading */
+.heading {
     text-align: center;
     text-transform: uppercase;
     margin-top: 3rem;
- }
+}
 
-  /* container */
-  #container_id{
+/* container */
+#container_id {
     width: 100%;
     height: auto;
     position: relative;
@@ -61,27 +62,70 @@ img {
     /* flex */
     display: flex;
     flex-direction: row;
-    justify-content: center; /* X Düzleminde */
-    align-items: center; /* Y Düzleminde*/
-    flex-wrap: nowrap; /* responsive olsun*/
+    justify-content: center;
+    /* X Düzleminde */
+    align-items: center;
+    /* Y Düzleminde*/
+    flex-wrap: nowrap;
+    /* responsive olsun*/
 
     /* box-shadow */
-    -webkit-box-shadow: 13px 24px 26px 0px rgba(255,255,255,0.72);
-    -moz-box-shadow: 13px 24px 26px 0px rgba(255,255,255,0.72);
-    box-shadow: 1px 2px 26px 0px rgba(255,255,255,0.72);
-  }
+    -webkit-box-shadow: 13px 24px 26px 0px rgba(255, 255, 255, 0.72);
+    -moz-box-shadow: 13px 24px 26px 0px rgba(255, 255, 255, 0.72);
+    box-shadow: 1px 2px 26px 0px rgba(255, 255, 255, 0.72);
+}
 
-  /* icon */
-  .icon_class{
-    color:rgb(125, 125, 251);
+/* icon */
+.icon_class {
+    color: rgb(125, 125, 251);
     font-size: 0.8rem;
-    margin-left:0.3rem;
+    margin-left: 0.3rem;
     position: absolute;
-    margin-top:0.1rem;
-  }
+    margin-top: 0.1rem;
+}
 
-  /* input */
-  /* input Focus */
+/* input */
+.input_class {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(125, 125, 251);
+    height: 2rem;
+    padding-left: 2rem;
+    font-size: .9rem;
+    background-color: transparent;
+    color: var(--template_color);
+}
 
-  /* button */
-  /* button:hover */
+/* Input Hover */
+.input_class:hover {
+    cursor: pointer;
+}
+
+/* Input Focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background-color: blueviolet;
+    color: var(--template_color);
+}
+
+/* Button */
+.button_class {
+    height: 1.5rem;
+    border: none;
+    background-color: rgb(125, 125, 251);
+    color: var(--template_color);
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+    transition: 3s all;
+} 
+
+/* Button Hover */
+input[type="reset"]:hover, button[type="submit"]:hover{
+    cursor: pointer;
+    background-color: var(--template_color);
+    color:  rgb(125, 125, 251);
+    transition: ease-in 2s;
+    transform: rotate(180deg);
+}

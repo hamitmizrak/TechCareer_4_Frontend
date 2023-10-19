@@ -403,7 +403,6 @@ const dataArray3 = () => {
         //console.log(index+" => "+value);
         console.log(`${index} => ${value}`);
     });
-
 }
 dataArray3();
 
