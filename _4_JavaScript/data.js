@@ -96,6 +96,7 @@
 // console.log(data14.indexOf("js"));
 // console.log(data14.lastIndexOf("js"));
 
+/////////////////////////////////////////////////////////////////////
 // ÖDEV // kullanıcı tarafından girilen bir kelimenin (prompt)
 // let userData= prompt("Lütfen bir şeyler yazınız")  ;
 // S-1) Kaç karakterlidir ? (length)
@@ -111,12 +112,83 @@
 // S-9) girdiğiniz kelimenin sonuna "-ben js öğreniyorum" (concat())
 // S-10) girdiğiniz 0 ile 4 arasındaki indexi ekranda gösterin? (subString())
 
+// Örnek
+// 1.YOL normal diziyle yapalım.
+// 2.YOL map,filter, forEach ile yapalım.
+// rastgele 10 elemanlı bir dizi  oluşturalım.  ==> (random)
+// bu sayılardan tek olanları bulalım.          ==> (filter)
+// bu tek sayıların sonuna 5 ekleyelim          ==> (map)
+// buradaki sayıları ekranda gösterelim. ?      ==> (forEach)
+// bu şarta uyan kaç tane sayı vardır ?         ==> (counter)
+
+//NOT: örneklerimizi function,anonymous ve arrow function ile yapalım.
+//NOT: değişken olarak var,let,const kullanalım.
+//Örnek-1
+//y=3x+4k ==>1.dereceden2bilinmeyenlidenklem algoritması
+//Kullanıcı tarafından alınan x ve kdeğerlerini hesaplayan algoritma yazınız ?
+//örnek-2
+//Kullanıcı tarafından alınan dereceyi  Fahrenhayta çeviren algoritma yapalım.
+//Formül: (derece*9/5)+32
+//örnek-3 operatör işlemleri: aşağıdaki örneği javascript ile yapalım
+//4+3*2(3:3-1*6+9:1+(3:3))
+
+//Örnek-4: Aşağıdaki örnekleri math ile çözelim ?
+// -5.9 sayıyının aşağıdaki işlemleri yaptıralım ?
+// 1-mutlak değeri alsın 5.9
+// 2-yuvarlama yapsın  6.0
+// 3-karesini alsın 36.00
+// 4-karekök alsın 6.0
+// 5-yuvarlama yapsın 6.0
+// 6-)çıkan sonucu 5 bölsün 6/5=1
+// 7-) iki sayı arasından karşılaştırma yapsın en küçüğünü alsın ve 1 ve 5
+// 8-) küçük sayı eğer tekse 3 eklesin çiftse 5 eklesin 
+// Örnek-5 : kullanıcı tarafından girilen bir sayıyı negatif mi pozitif mi olduğu ekran yazdıran algoritma ?
+//NOT: cast kullalım ?
+// Örnek-6 : kullanıcı tarafından password ve repassword alalım sonrasında bu iki değeri karşılaştırma yapalım
+//eğer aynı girilirse aynı veri yoksa birbirine uymadı yazan algoritma yapalım
+
+
+// ÖDEV 
+// kullanıcıdan aldığımız isim soyisim (boşluk var)
+// ilk karakter göstersin sonraki kelimeleri masking (maskeleme yapsın)
+// eğer kullanıcı isim ve soyisimi ilk karakteri küçük girmişse büyük olsun mutlaka
+// Hamit Mızrak
+// H**** MIZ***
+// ipucu: charAt, substring, indexOf, döngü, karar mekanizma
 
 /////////////////////////////////////////////////////////////////////////////
 // Function
-
 // normal Function 
 // anonymous function
 // arrow function
-// immedia function
+// immedia function (()=>{})()
+/////////////////////////////////////////////////////////////////////////////
 
+// conditional
+/////////////////////////////////////////////////////////////////////////////
+
+// ternary
+/////////////////////////////////////////////////////////////////////////////
+
+// switch case
+/////////////////////////////////////////////////////////////////////////////
+
+// Loop
+/////////////////////////////////////////////////////////////////////////////
+
+// Array
+/////////////////////////////////////////////////////////////////////////////
+
+// Object
+/////////////////////////////////////////////////////////////////////////////
+
+// DOM
+/////////////////////////////////////////////////////////////////////////////
+
+// Event Listener
+/////////////////////////////////////////////////////////////////////////////
+
+// Local Storage
+
+//////////////////////////////////////////////////////////////////
+// Form örneğine devam
