@@ -158,10 +158,59 @@
 
 /////////////////////////////////////////////////////////////////////////////
 // Function
-// normal Function 
-// anonymous function
-// arrow function
+// 1
+// function retursuzParametresiz(){
+//     console.log("retursuz Parametresiz");
+// }
+// retursuzParametresiz();
+
+// // 2
+// function retursuzParametreli(uname,usurname){
+//     console.log("retursuz Parametreli "+uname+" "+usurname);
+// }
+// retursuzParametreli("Hamit","Mızrak");
+
+// // 3
+// function returluParametresiz(){
+//     return "returlu Parametresiz"
+// }
+// let data14= returluParametresiz();
+// console.log(data14);
+
+// // 4
+// function returluParametreli(uname,usurname){
+//     return "returlu Parametreli"+uname+" "+usurname;
+// }
+// let data15= returluParametreli("Hamit","Mızrak");
+// console.log(data15);
+
+/////////////////////////////////////////////////////////////////////////////
+
 // immedia function (()=>{})()
+(() =>{
+    console.log("data immedia function");
+})()
+
+
+// normal Function 
+function normalFunction(){
+    console.log("normal  function");
+}
+normalFunction();
+
+// anonymous function
+const anonymous=function(){
+    console.log("anonymous  function");
+}
+anonymous();
+
+// arrow function
+const arrow=()=>{
+    console.log("arrow  function");
+}
+arrow()
+
+
 /////////////////////////////////////////////////////////////////////////////
 
 // conditional
